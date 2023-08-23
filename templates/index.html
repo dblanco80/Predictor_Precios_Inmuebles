@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Predictor de Precios</title>
+        
+    </head>
+    <body>
+        <h1>Predictor de Precios</h1>
+        {% if result %}
+            <p>El precio aproximado es de: U$S{{ result }}
+        {% endif %}
+
+        <form method="post" action="predict">
+            <label>Latitud</label>
+            <input type="text" name="lat"></br></br>
+            <label>Longitud</label>
+            <input type="text" name="lon"></br></br>
+            <label>Ambientes</label>
+            <input type="text" name="amb"></br></br>
+            <label>Baños</label>
+            <input type="text" name="banios"></br></br>
+            <label>Superficie total</label>
+            <input type="text" name="sup_tot"></br></br>
+            <label>Superficie cubierta</label>
+            <input type="text" name="sup_cub"></br></br></br>
+            <input type="submit"  value='Predecir'></br></br>
+        </form>
+    </body>
+</html>
