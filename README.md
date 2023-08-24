@@ -13,8 +13,8 @@ Este repositorio contiene el trabajo final del curso de Data Science de CoderHou
 
 ## Implementación del modelo
 
-En una primera instancia la idea para poner el modelo productivo era utilizar una funcion lambda de aws que acceda a S3 para recuperar el modelo, esta funcion se accedería a traves del modelo apigateway de AWS.
-Esta implementacion se descartó por problemas tecnicos y se decidió montar un servidor EC2 en donde se tuvieron que instalar todas las dependencias y su posterior configuracion para poder se accedido desde internet.
+En una primera instancia la idea para poner el modelo productivo era utilizar una funcion lambda de aws que acceda a S3 para recuperar el modelo, esta funcion se accedería a través de AWS.
+Esta implementación se descartó por problemas técnicos y se decidió montar un servidor EC2 en donde se tuvieron que instalar todas las dependencias y su posterior configuracion para poder se accedido desde internet.
 Para interactuar con el modelo haga click en el siguiente [enlace](http://ec2-54-207-150-208.sa-east-1.compute.amazonaws.com:5000/)
 
 ## Consideraciones importantes
